@@ -19,10 +19,11 @@ poly add(poly poly1,poly poly2)
 {
 int high,i;
 poly poly3;
+
 if (poly1.n>poly2.n)
-{high=poly1.n;}
+	high=poly1.n;
 else
-{high=poly2.n;}
+	high=poly2.n;
 
 for(i=0;i<=high;i++)
 	{
