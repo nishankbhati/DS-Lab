@@ -12,10 +12,9 @@ poly p4;
 		scanf("%d",&p4.arr[i]);	
 		}
 return p4;
-
 }
 
-poly add(poly poly1,poly poly2)
+poly add(poly poly1,poly poly2) //for adding two polynomials
 {
 int high,i;
 poly poly3;
