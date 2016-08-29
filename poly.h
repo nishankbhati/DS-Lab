@@ -1,4 +1,5 @@
 // DSA LAB 1
+// Wriiten by:- Nishank Bhati 15UCS086
 #include<stdio.h>
 
 struct polynomial{
