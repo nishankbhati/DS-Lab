@@ -3,8 +3,7 @@
 #include<stdbool.h>
 #include "queuefunction.c"
 
-
-int main(){
+int main(void){
 
 	//void create();
 	
