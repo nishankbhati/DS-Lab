@@ -13,6 +13,9 @@ struct Q{
 
 
 void Enqueue(int ,struct Q* );
+
 void dequeue(struct Q* );
+
 void print(struct Q* );
+
 //void create();
