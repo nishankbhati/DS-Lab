@@ -48,6 +48,7 @@ void Dequeue(struct Q* Q1){
 	
 }
 
+
 void print(struct Q* Q1){
 	int i;
 	printf("List is: ");
