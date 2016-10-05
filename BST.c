@@ -20,7 +20,7 @@ struct BstNode* getnode(int data){
 
 }
 
-struct BstNode* insert(struct BstNode *root,int data)
+struct BstNode* Insert(struct BstNode *root,int data)
 {
 	if(root==NULL)	//EMPTY TREE
 	{
