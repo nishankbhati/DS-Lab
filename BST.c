@@ -34,7 +34,7 @@ struct BstNode* insert(struct BstNode *root,int data)
 	else {
 		root->right = Insert(root->right,data);
 	}
-return *root;
+return root;
 }
 
 //To search an element in BST, returns true if element is found
