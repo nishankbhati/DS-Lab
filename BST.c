@@ -52,6 +52,16 @@ bool Search(struct BstNode* root,int data) {
 		return Search(root->right,data);
 	}
 }
+int search_minvalue(struct BstNode* *root){
+ 	Node* current=root;
+ 	
+ 	while(current->left!=NULL){
+ 	 current=current->left;
+ 	}
+ 	
+ 	return(current->data);
+
+}
 
 
 int main()
@@ -69,5 +79,6 @@ int main()
 		printf("Exist");
 	else
 		printf("Not exist");
+	printf("The minm value is %d \n",search_minvalue(root));
 
 }
